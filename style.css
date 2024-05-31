@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --nav-font-color: #8199ed;
+  --font-h3-h2-color: #505276;
+  --font-general-color: #333333;
+  --qualities-primary-color: #b6aaa0;
+  --qualities-secondary-color: #c6beb6;
+  --service-reference-background-color: #e8e1da;
+  --reference-profil-background-color: #8a847e;
+  --blog-background-color: #dce5f3;
+  --footer-background-color: #42527b;
+  --footer-copyright-background-color: #273552;
+  --contact-gradient: linear-gradient(#dce5f3, #fff);
+}
