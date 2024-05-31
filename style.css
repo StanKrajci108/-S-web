@@ -8,6 +8,8 @@
   --nav-font-color: #8199ed;
   --font-h3-h2-color: #505276;
   --font-general-color: #333333;
+  --footer-font-primary-color: #b5c8fc;
+  --footer-font-secondary-color: #9096d9;
   --qualities-primary-color: #b6aaa0;
   --qualities-secondary-color: #c6beb6;
   --service-reference-background-color: #e8e1da;
@@ -16,4 +18,13 @@
   --footer-background-color: #42527b;
   --footer-copyright-background-color: #273552;
   --contact-gradient: linear-gradient(#dce5f3, #fff);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: ;
 }
