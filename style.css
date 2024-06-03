@@ -7,6 +7,7 @@
 :root {
   --nav-font-color: #8199ed;
   --font-h3-h2-color: #505276;
+  --font-h4-color: #6d7182;
   --font-general-color: #333333;
   --footer-font-primary-color: #b5c8fc;
   --footer-font-secondary-color: #9096d9;
@@ -197,4 +198,26 @@ h4 {
 .qualityBox img {
   height: 2.5rem;
   width: auto;
+}
+
+.heading {
+  margin: 0 auto;
+  padding: 5rem 0;
+  text-align: center;
+  background-color: #f4f4f4;
+}
+
+.heading h2 {
+  font-family: "Cormorant Upright", serif;
+  font-size: 2.5rem;
+  color: var(--font-h3-h2-color);
+  margin-bottom: 1rem;
+}
+
+.heading h4 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: var(--font-h4-color);
+  margin-bottom: 1rem;
 }
