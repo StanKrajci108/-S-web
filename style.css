@@ -235,14 +235,19 @@ h3 {
   margin-bottom: 1.7rem;
 }
 
+.service {
+  background-color: #f4f4f4;
+}
+
 .property,
-.receivables {
+.receivables,
+.contracts {
   display: flex;
   flex-direction: row-reverse;
   justify-content: space-between;
   align-items: center;
   background-color: var(--service-reference-background-color);
-  margin-bottom: 4rem;
+  margin-bottom: 5rem;
 }
 
 .receivables {
@@ -250,13 +255,26 @@ h3 {
 }
 
 .property img,
-.receivables img {
+.receivables img,
+.contracts img {
   width: 48%;
   height: 100%;
   object-fit: cover;
 }
 
 .propertyText,
+.contractsText {
+  padding: 0 6rem;
+}
+
 .receivablesText {
   padding: 0 6rem;
+  margin-bottom: 3.4rem;
+}
+
+.list {
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+  margin-left: 2rem;
 }
