@@ -31,7 +31,11 @@ body {
   font-optical-sizing: auto;
   max-width: 100rem;
   margin: 0 auto;
-  background-image: url(images/watercolor-paper-texture.jpg);
+  background-image: url(images/background\ 2.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
   box-shadow: 0 0 2rem #323232;
 }
 
@@ -309,6 +313,7 @@ p {
 
 .references {
   background-color: var(--service-reference-background-color);
+  padding-bottom: 3rem;
 }
 
 .referencesBox {
@@ -330,4 +335,9 @@ p {
   font-size: 1.2rem;
   font-weight: 400;
   margin-top: 2rem;
+}
+
+.refProfil h6 {
+  font-weight: 400;
+  margin-bottom: 1rem;
 }
