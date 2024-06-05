@@ -373,9 +373,9 @@ p {
   text-decoration: none;
   color: var(--font-h3-h2-color);
   font-family: "Open Sans", sans-serif;
-  font-size: 1rem;
+  font-size: 1em;
   font-weight: 600;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 
 .blogText h4 {
