@@ -293,6 +293,7 @@ p {
 .propertyText,
 .contractsText {
   padding: 0 6rem;
+  width: auto;
 }
 
 .receivablesText {
