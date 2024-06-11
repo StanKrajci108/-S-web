@@ -293,10 +293,11 @@ p {
 .propertyText,
 .contractsText {
   padding: 0 6rem;
-  width: auto;
+  width: 52%;
 }
 
 .receivablesText {
+  width: 52%;
   padding: 0 6rem;
   margin-bottom: 3.4rem;
 }
