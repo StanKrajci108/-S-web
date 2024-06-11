@@ -314,8 +314,8 @@ p {
 }
 
 .blockRef {
-  background-color: #f4f4f4;
-  height: 8rem;
+  background-color: #ffffff;
+  height: 10rem;
 }
 
 .references {
@@ -508,4 +508,30 @@ button:hover {
   color: var(--font-h3-h2-color);
   font-size: 1.5rem;
   font-weight: 500;
+}
+
+footer {
+  background-color: var(--footer-background-color);
+}
+
+.footerBox {
+  /* background-color: var(--footer-background-color); */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 7rem 2rem;
+  gap: 2rem;
+}
+
+.footerCopy {
+  font-size: 1.2rem;
+  font-weight: 500;
+  background-color: var(--footer-copyright-background-color);
+}
+
+.footerCopy p {
+  color: var(--font-h4-color);
+  text-align: center;
+  font-size: 1rem;
+  padding: 0.5rem 0;
 }
