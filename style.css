@@ -230,8 +230,9 @@ p {
 }
 
 .qualityBox img {
-  height: 2.5rem;
+  height: 3rem;
   width: auto;
+  filter: hue-rotate(10deg) saturate(0.7);
 }
 
 .heading {
