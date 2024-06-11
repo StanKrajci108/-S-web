@@ -286,7 +286,7 @@ p {
 .receivables img,
 .contracts img {
   width: 48%;
-  height: 100%;
+  height: auto;
   object-fit: cover;
 }
 
