@@ -86,6 +86,10 @@ p {
   margin-left: 0.2rem;
 }
 
+.logoNameFooter h4 {
+  color: var(--footer-font-primary-color);
+}
+
 .hero {
   background-image: url(images/hero\ section\ larger.jpg);
   background-size: cover;
@@ -181,7 +185,7 @@ p {
 }
 
 .logo img {
-  width: 35px;
+  width: 2rem;
   height: auto;
   object-fit: contain;
   margin-right: 0.5rem;
@@ -394,15 +398,6 @@ p {
   margin-bottom: 1.5rem;
 }
 
-/* .blogBtn {
-  display: flex;
-  margin: 0 auto;
-  background-color: var(--blog-background-color);
-  border: none;
-  border-bottom: 2px solid var(--font-h3-h2-color);
-  margin-bottom: 5rem;
-} */
-
 .blogBtn a {
   text-decoration: none;
   color: var(--font-h3-h2-color);
@@ -452,7 +447,6 @@ button:hover {
 }
 
 .contactMap img {
-  /* margin: 1rem auto; */
   max-width: 75rem;
   width: 100%;
   box-shadow: 0 0 15px gray;
@@ -522,10 +516,10 @@ footer {
 
 .footerBox {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
   padding: 7rem 2rem;
-  /* gap: 2rem; */
+  align-items: start;
+  width: 100%;
   max-width: 75rem;
   margin: 0 auto;
 }
@@ -540,14 +534,45 @@ footer {
 
 .footerPages {
   display: flex;
+  flex-grow: 1;
   flex-direction: column;
-  gap: 1rem;
+  gap: 1.5rem;
   text-align: center;
+}
+
+.footerPages a {
+  text-decoration: none;
+  color: var(--footer-font-primary-color);
+  font-size: 1.2rem;
+  font-weight: 500;
 }
 
 .footerConnections {
   display: flex;
-  justify-content: flex-end;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 1.5rem;
+  color: var(--footer-font-primary-color);
+}
+
+.footerConnections a {
+  text-decoration: none;
+  color: var(--footer-font-secondary-color);
+  font-weight: 500;
+}
+
+.footerConnections a:hover {
+  color: var(--footer-font-primary-color);
+}
+
+.footerConnections ul {
+  margin: 0.5rem 0 0 1.5rem;
+}
+
+.footerIcons img {
+  width: 4rem;
+  height: auto;
+  padding: 0.5rem;
 }
 
 .footerCopy {
@@ -561,4 +586,9 @@ footer {
   text-align: center;
   font-size: 1rem;
   padding: 0.5rem 0;
+}
+
+.footerCopy a {
+  text-decoration: none;
+  color: var(--footer-font-secondary-color);
 }
