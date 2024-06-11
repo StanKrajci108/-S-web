@@ -48,7 +48,7 @@ h2 {
 
 h3 {
   font-family: "Cormorant Upright", serif;
-  font-size: 1.8rem;
+  font-size: 2.5rem;
   font-weight: 400;
   text-transform: uppercase;
   color: var(--font-h3-h2-color);
@@ -242,7 +242,7 @@ p {
 .headingBlog h2,
 .headingContact h2 {
   font-family: "Cormorant Upright", serif;
-  font-size: 3rem;
+  font-size: 3.5rem;
   color: var(--font-h3-h2-color);
   margin-bottom: 1rem;
 }
@@ -422,20 +422,88 @@ button:hover {
 
 .contact {
   background-image: var(--contact-gradient);
+  padding-bottom: 6rem;
 }
 
 .contactBox {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
-  padding: 3rem 0;
+  padding: 3rem 1rem;
   text-align: center;
+  max-width: 75rem;
+}
+
+.contactMap {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
 }
 
 .contactMap img {
+  /* margin: 1rem auto; */
+  max-width: 75rem;
+  width: 100%;
+  box-shadow: 0 0 15px gray;
+  border-radius: 1rem;
+  transition: 1s ease-in-out;
+}
+
+.contactMap img:hover {
+  transform: scale(1.05);
+}
+
+.contactAddressBox,
+.contactReach {
+  text-align: start;
+}
+
+.contactAddressBox h5 {
+  font-weight: 500;
+  margin-bottom: 0.3rem;
+  font-size: 2rem;
+  color: var(--font-h3-h2-color);
+}
+
+.contactDetails p {
+  line-height: 1.6;
+  font-size: 1.2rem;
+}
+
+.contactAddress {
   display: flex;
-  margin: 0 auto;
-  max-width: 1600px;
+  flex-direction: row;
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.contactReach {
+  display: flex;
+  flex-direction: column;
+}
+
+.contactReach img {
+  width: 5rem;
+  height: auto;
+}
+
+.contactLinkedIn img {
+  padding: 0.2rem;
+}
+
+.c {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  margin-bottom: 1rem;
+}
+
+.c a {
+  text-decoration: none;
+  color: var(--font-h3-h2-color);
+  font-size: 1.5rem;
+  font-weight: 500;
 }
