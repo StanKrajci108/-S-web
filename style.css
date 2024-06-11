@@ -96,27 +96,26 @@ p {
   background-repeat: no-repeat;
   width: 100%;
   height: 100vh;
-  max-height: 55rem;
+  max-height: 60rem;
   background-position: center;
   position: relative;
 }
 
 .hero-title {
+  display: flex;
+  flex-direction: row-reverse;
   font-weight: 400;
   text-transform: uppercase;
   color: white;
   line-height: 1.4;
   position: absolute;
-  right: -45%;
+  right: -35%;
   top: 75%;
-  width: 95rem;
+  width: 85rem;
   height: 20rem;
   font-size: 1.8rem;
-  padding-inline: 0 2rem;
   text-shadow: 0 0 5px #323232;
   transform: translate(-50%, -50%);
-  display: flex;
-  flex-direction: row-reverse;
 }
 
 .hero-title-inner {
@@ -275,8 +274,8 @@ p {
 .receivables {
   display: flex;
   flex-direction: row-reverse;
-  justify-content: space-between;
-  align-items: center;
+  /* justify-content: space-between; */
+  /* align-items: center; */
   background-color: var(--service-reference-background-color);
   margin-bottom: 5rem;
 }
@@ -285,7 +284,7 @@ p {
   display: flex;
   flex-direction: row-reverse;
   justify-content: space-between;
-  align-items: center;
+  /* align-items: center; */
   background-color: var(--service-reference-background-color);
 }
 
@@ -296,20 +295,21 @@ p {
 .property img,
 .receivables img,
 .contracts img {
-  width: 48%;
+  max-width: 52%;
   height: auto;
   object-fit: cover;
 }
 
 .propertyText,
 .contractsText {
-  padding: 0 6rem;
+  background-color: var(--service-reference-background-color);
+  padding: 1.5rem 6rem;
   width: 52%;
 }
 
 .receivablesText {
   width: 52%;
-  padding: 0 6rem;
+  padding: 1.5rem 6rem;
   margin-bottom: 3.4rem;
 }
 
@@ -322,6 +322,8 @@ p {
 
 .list li {
   list-style: circle;
+  color: var(--font-general-color);
+  font-weight: 400;
 }
 
 .blockRef {
@@ -546,6 +548,11 @@ footer {
   color: var(--footer-font-primary-color);
   font-size: 1.2rem;
   font-weight: 500;
+  transition: 0.8s ease-in-out;
+}
+
+.footerPages a:hover {
+  transform: scale(1.2);
 }
 
 .footerConnections {
@@ -574,6 +581,11 @@ footer {
   width: 4rem;
   height: auto;
   padding: 0.5rem;
+  transition: 0.8s ease-in-out;
+}
+
+.footerIcons img:hover {
+  transform: scale(1.1);
 }
 
 .footerCopy {
