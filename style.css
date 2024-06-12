@@ -129,6 +129,15 @@ p {
   cursor: pointer;
 }
 
+.menu-icon-close {
+  padding: 0.5rem;
+}
+
+.menu-icon img {
+  width: 3.5rem;
+  height: 3.5rem;
+}
+
 .navBox {
   display: flex;
   max-width: 95rem;

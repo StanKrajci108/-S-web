@@ -1,5 +1,33 @@
-/* @media (max-width: 1440px) {
-  .hero-title {
-    left: 30%;
+@media screen and (max-width: 1200px) {
+  .navBox nav {
+    position: absolute;
+    right: 0;
+    width: 50vw;
+    top: 103px;
+    background: linear-gradient(180deg, #565656, #2f2f2f);
+    border-bottom-left-radius: 25px;
+    display: none;
   }
-} */
+
+  .navBox nav ul {
+    flex-direction: column;
+    text-align: center;
+    gap: 55px;
+    margin: 50px 0;
+  }
+
+  .navBox nav a {
+    font-size: 1.5rem;
+  }
+
+  .menu-icon {
+    position: absolute;
+    display: block;
+    right: 0;
+    top: 22px;
+    height: 70px;
+    font-size: 2rem;
+    z-index: 100;
+    color: aliceblue;
+  }
+}
