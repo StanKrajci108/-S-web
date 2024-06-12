@@ -17,7 +17,7 @@
   }
 
   .navBox nav a {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
 
   .menu-icon {
@@ -96,6 +96,10 @@
     width: 1.5rem;
   }
 
+  .navBox nav {
+    top: 82px;
+  }
+
   .logoName h2 {
     font-size: 1.5rem;
   }
@@ -123,6 +127,10 @@
   .referencesBox,
   .footerBox {
     padding: 2rem;
+  }
+
+  .list {
+    flex-direction: column;
   }
 
   .blogText {
