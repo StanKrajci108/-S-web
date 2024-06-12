@@ -30,4 +30,82 @@
     z-index: 100;
     color: aliceblue;
   }
+
+  .hero-title {
+    right: -55%;
+  }
+
+  .referencesBox,
+  .blogBox {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 10rem;
+    gap: 5rem;
+  }
+
+  .blogBox {
+    padding: 2rem 0;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .hero-title {
+    right: -65%;
+  }
+
+  .quality {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 10rem;
+  }
+
+  .property,
+  .receivables,
+  .contracts {
+    flex-direction: column-reverse;
+    align-items: center;
+    /* width: 100%; */
+  }
+
+  .property img,
+  .receivables img,
+  .contracts img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .propertyText,
+  .receivablesText,
+  .contractsText {
+    width: 100%;
+    padding: 5rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .hero-title {
+    right: 10%;
+    width: 30%;
+  }
+
+  .hero-title-inner {
+    width: 100%;
+  }
+
+  .hero-title-inner h1 {
+    font-size: 2rem;
+  }
+
+  .quality,
+  .referencesBox {
+    padding: 2rem;
+  }
+
+  .contactBox {
+    padding: 2rem;
+    justify-content: center;
+    gap: 7rem;
+  }
 }

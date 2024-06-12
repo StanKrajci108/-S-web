@@ -217,8 +217,11 @@ p {
 .referencesBox {
   display: flex;
   flex-direction: row;
-  background-color: var(--qualities-primary-color);
   padding: 0 2.5rem;
+}
+
+.quality {
+  background-color: var(--qualities-primary-color);
 }
 
 .qualityBox,
@@ -280,26 +283,22 @@ p {
 }
 
 .property,
-.receivables {
+.receivables,
+.contracts {
   display: flex;
-  flex-direction: row-reverse;
-  /* justify-content: space-between; */
-  /* align-items: center; */
+  flex-direction: row;
   background-color: var(--service-reference-background-color);
   margin-bottom: 5rem;
 }
 
+.property,
 .contracts {
-  display: flex;
   flex-direction: row-reverse;
-  justify-content: space-between;
-  /* align-items: center; */
-  background-color: var(--service-reference-background-color);
 }
 
-.receivables {
+/* .receivables {
   flex-direction: row;
-}
+} */
 
 .property img,
 .receivables img,
@@ -343,10 +342,6 @@ p {
 .references {
   background-color: var(--service-reference-background-color);
   padding-bottom: 3rem;
-}
-
-.referencesBox {
-  background-color: var(--service-reference-background-color);
 }
 
 .refProfil {
