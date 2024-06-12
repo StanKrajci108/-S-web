@@ -25,10 +25,15 @@
     display: block;
     right: 0;
     top: 22px;
-    height: 70px;
-    font-size: 2rem;
+    /* height: 2rem; */
+    /* font-size: 2rem; */
     z-index: 100;
     color: aliceblue;
+  }
+
+  .menu-icon img {
+    width: 2.5rem;
+    height: 2.5rem;
   }
 
   .hero-title {
@@ -54,11 +59,13 @@
     right: -65%;
   }
 
-  .quality {
+  .quality,
+  .footerBox {
     width: 100%;
     flex-direction: column;
     align-items: center;
     padding: 2rem 10rem;
+    gap: 5rem;
   }
 
   .property,
@@ -85,9 +92,23 @@
 }
 
 @media screen and (max-width: 800px) {
+  .logo img {
+    width: 1.5rem;
+  }
+
+  .logoName h2 {
+    font-size: 1.5rem;
+  }
+
+  .logoName h4 {
+    font-size: 1rem;
+  }
+
   .hero-title {
-    right: 10%;
-    width: 30%;
+    right: 0;
+    top: 70%;
+    left: 60%;
+    width: 60%;
   }
 
   .hero-title-inner {
@@ -95,12 +116,17 @@
   }
 
   .hero-title-inner h1 {
-    font-size: 2rem;
+    font-size: 2.7rem;
   }
 
   .quality,
-  .referencesBox {
+  .referencesBox,
+  .footerBox {
     padding: 2rem;
+  }
+
+  .blogText {
+    margin: 0 2rem;
   }
 
   .contactBox {
