@@ -288,6 +288,10 @@ p {
   display: flex;
   flex-direction: row;
   background-color: var(--service-reference-background-color);
+}
+
+.property,
+.receivables {
   margin-bottom: 5rem;
 }
 
@@ -495,7 +499,7 @@ button:hover {
 }
 
 .contactReach img {
-  width: 5rem;
+  width: 4rem;
   height: auto;
 }
 
