@@ -315,13 +315,13 @@ p {
 .propertyText,
 .contractsText {
   background-color: var(--service-reference-background-color);
-  padding: 1.5rem 6rem;
+  padding: 2.5rem 6rem;
   width: 52%;
 }
 
 .receivablesText {
   width: 52%;
-  padding: 1.5rem 6rem;
+  padding: 2.5rem 6rem;
   margin-bottom: 3.4rem;
 }
 
