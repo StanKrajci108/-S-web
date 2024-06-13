@@ -573,7 +573,7 @@ footer {
 
 .footerConnections a {
   text-decoration: none;
-  color: var(--footer-font-secondary-color);
+  color: var(--nav-font-color);
   font-weight: 500;
 }
 
@@ -611,5 +611,5 @@ footer {
 
 .footerCopy a {
   text-decoration: none;
-  color: var(--footer-font-secondary-color);
+  color: var(--nav-font-color);
 }
