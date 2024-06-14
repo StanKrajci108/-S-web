@@ -89,6 +89,10 @@
 }
 
 @media screen and (max-width: 800px) {
+  .hero {
+    background-image: url("images/hero\ section\ mobile.jpg");
+  }
+
   .heading h2,
   .headingRef h2,
   .headingBlog h2,
@@ -145,12 +149,6 @@
   .quality {
     gap: 1rem;
   }
-
-  /* .propertyText,
-  .receivablesText,
-  .contractsText {
-    padding: 4rem 2rem;
-  } */
 
   .list {
     flex-direction: column;
