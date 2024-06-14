@@ -96,6 +96,10 @@
     width: 1.5rem;
   }
 
+  .logoName.scrolled {
+    display: none;
+  }
+
   .navBox nav {
     top: 82px;
   }

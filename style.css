@@ -140,15 +140,18 @@ p {
 
 .navBox {
   display: flex;
-  max-width: 95rem;
   margin: 0 auto;
   justify-content: space-between;
   align-items: center;
-  padding: 0.5rem 2rem;
-}
-
-.navBoxBackground {
+  padding: 0.5rem 4rem;
   background-color: #00000048;
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 0;
+  z-index: 100;
+  width: 100%;
+  max-width: 100rem;
 }
 
 .navigation {
@@ -156,6 +159,19 @@ p {
   justify-content: center;
   align-items: center;
   gap: 2.5rem;
+}
+
+.navBox.scrolled {
+  background-color: #03051c;
+  box-shadow: 0 0 35px #868686;
+}
+
+.logoName.scrolled {
+  display: none;
+}
+
+.logoImage.scrolled {
+  width: 1.5rem;
 }
 
 .navigation ul {
@@ -197,6 +213,7 @@ p {
   height: auto;
   object-fit: contain;
   margin-right: 0.5rem;
+  transition: width 0.5s ease;
 }
 
 .contactBTN {
