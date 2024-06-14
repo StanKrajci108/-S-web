@@ -84,7 +84,7 @@
   .receivablesText,
   .contractsText {
     width: 100%;
-    padding: 5rem 3.5rem;
+    padding: 5rem 3rem;
   }
 }
 
@@ -146,11 +146,11 @@
     gap: 1rem;
   }
 
-  .propertyText,
+  /* .propertyText,
   .receivablesText,
   .contractsText {
-    padding: 4rem;
-  }
+    padding: 4rem 2rem;
+  } */
 
   .list {
     flex-direction: column;
@@ -167,7 +167,7 @@
   }
 
   .contactAddressBox h5 {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
   }
 
   .contactAddress p {
