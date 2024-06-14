@@ -12,12 +12,12 @@
   .navBox nav ul {
     flex-direction: column;
     text-align: center;
-    gap: 55px;
-    margin: 50px 0;
+    gap: 2.5rem;
+    margin: 2.5rem 0;
   }
 
   .navBox nav a {
-    font-size: 1.3rem;
+    font-size: 1rem;
   }
 
   .menu-icon {
@@ -84,11 +84,19 @@
   .receivablesText,
   .contractsText {
     width: 100%;
-    padding: 5rem;
+    padding: 5rem 3.5rem;
   }
 }
 
 @media screen and (max-width: 800px) {
+  .heading h2,
+  .headingRef h2,
+  .headingBlog h2,
+  .headingContact h2 {
+    font-size: 3rem;
+    padding: 0 2rem;
+  }
+
   .logo img {
     width: 1.5rem;
   }
@@ -153,7 +161,7 @@
   }
 
   .contactBox {
-    padding: 2rem;
+    padding: 2rem 3.5rem;
     justify-content: center;
     gap: 7rem;
   }
@@ -166,11 +174,35 @@
     font-size: 1rem;
   }
 
+  #ico {
+    font-size: 0.8rem;
+  }
+
   .c a {
     font-size: 1rem;
   }
 
   .contactReach img {
     width: 3rem;
+  }
+
+  .contactMap {
+    padding: 3rem;
+  }
+
+  .blockMobile {
+    display: none;
+  }
+
+  .footerBox {
+    padding: 3rem 0;
+  }
+
+  .footerCopy p {
+    font-size: 0.9rem;
+  }
+
+  .footerLinks {
+    margin-bottom: 3rem;
   }
 }
