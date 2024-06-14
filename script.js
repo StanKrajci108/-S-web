@@ -47,3 +47,15 @@ window.addEventListener("resize", () => {
     logoName.classList.remove("scrolled");
   }
 });
+
+window.addEventListener("resize", () => {
+  const mobileLocation = document.querySelector(".mobileLocation");
+  const location = document.querySelector(".location");
+  if (window.innerWidth < 768) {
+    mobileLocation.style.display = "block";
+    location.style.display = "none";
+  } else {
+    mobileLocation.style.display = "none";
+    location.style.display = "block";
+  }
+});

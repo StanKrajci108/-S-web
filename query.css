@@ -134,6 +134,16 @@
     padding: 2rem;
   }
 
+  .quality {
+    gap: 1rem;
+  }
+
+  .propertyText,
+  .receivablesText,
+  .contractsText {
+    padding: 4rem;
+  }
+
   .list {
     flex-direction: column;
   }
@@ -146,5 +156,21 @@
     padding: 2rem;
     justify-content: center;
     gap: 7rem;
+  }
+
+  .contactAddressBox h5 {
+    font-size: 1.7rem;
+  }
+
+  .contactAddress p {
+    font-size: 1rem;
+  }
+
+  .c a {
+    font-size: 1rem;
+  }
+
+  .contactReach img {
+    width: 3rem;
   }
 }

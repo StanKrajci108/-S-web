@@ -486,6 +486,10 @@ button:hover {
   transform: scale(1.05);
 }
 
+.mobileLocation {
+  display: none;
+}
+
 .contactAddressBox,
 .contactReach {
   text-align: start;
