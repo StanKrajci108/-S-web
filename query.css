@@ -117,11 +117,13 @@
     top: 82px;
   }
 
-  .logoName h2 {
+  .logoName h2,
+  .logoNameFooter h2 {
     font-size: 1.5rem;
   }
 
-  .logoName h4 {
+  .logoName h4,
+  .logoNameFooter h4 {
     font-size: 1rem;
   }
 
