@@ -78,7 +78,8 @@ p {
   color: var(--nav-font-color);
 }
 
-.logoName h4 {
+.logoName h4,
+.logoNameFooter h4 {
   font-family: "Cormorant Upright", serif;
   font-size: 1.6rem;
   color: rgb(142, 146, 170);
