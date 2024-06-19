@@ -30,6 +30,7 @@ body {
   font-style: normal;
   font-optical-sizing: auto;
   max-width: 100rem;
+  width: 100%;
   margin: 0 auto;
   background-image: url(images/background\ 3.jpg);
   background-position: center;
@@ -138,6 +139,7 @@ p {
   height: 3.5rem;
 }
 
+.navBoxIndex,
 .navBox {
   display: flex;
   margin: 0 auto;
@@ -152,6 +154,10 @@ p {
   z-index: 100;
   width: 100%;
   max-width: 100rem;
+}
+
+.navBox {
+  background-color: #0806149c;
 }
 
 .navigation {
@@ -390,15 +396,36 @@ p {
   text-transform: uppercase;
 }
 
-.blog {
+.blog,
+.aboutMe {
   display: flex;
   background-color: var(--blog-background-color);
 }
 
+.aboutMe {
+  flex-direction: column;
+  padding-top: 10rem;
+}
+
+.aboutMeText,
 .blogBox {
   display: flex;
   flex-direction: row;
   margin-bottom: 5rem;
+}
+
+.aboutMeText {
+  padding: 2.5rem;
+  margin-top: 5rem;
+  gap: 3rem;
+}
+
+.aboutMeText img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 0.5rem;
+  border: 3px solid #fff;
 }
 
 .blogText {
