@@ -59,3 +59,18 @@ window.addEventListener("resize", () => {
     location.style.display = "block";
   }
 });
+
+// Scrolling up button appearence
+window.addEventListener("scroll", () => {
+  if (window.scrollY > 1000) {
+    scrollToTopButton.style.display = "block";
+  } else {
+    scrollToTopButton.style.display = "none";
+  }
+});
+
+// When the user clicks on the button, scroll to the top of the page
+scrollToTopButton.addEventListener("click", () => {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+});
