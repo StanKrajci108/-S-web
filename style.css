@@ -402,25 +402,45 @@ p {
   background-color: var(--blog-background-color);
 }
 
+.aboutMeBox {
+  margin: 0 auto;
+}
+
 .aboutMe {
   flex-direction: column;
   padding-top: 10rem;
 }
 
-.aboutMeText,
+.aboutMeTextBox,
 .blogBox {
   display: flex;
   flex-direction: row;
   margin-bottom: 5rem;
 }
 
-.aboutMeText {
+.aboutMeTextBox {
+  max-width: 82rem;
+  justify-content: center;
+}
+
+.aboutMeTextBox {
   padding: 2.5rem;
   margin-top: 5rem;
   gap: 3rem;
 }
 
-.aboutMeText img {
+.aboutMeTitleImg {
+  flex: 0 1 auto;
+  width: 100%;
+  /* max-width: 25rem; */
+}
+
+.aboutMeText {
+  width: 100%;
+}
+
+.aboutMeTitleImg img {
+  max-width: 30rem;
   width: 100%;
   height: auto;
   object-fit: cover;
@@ -429,8 +449,8 @@ p {
 }
 
 .blogText {
-  flex: 1;
-  margin: 0 9rem;
+  /* flex: 1; */
+  /* margin: 0 9rem; */
   gap: 4rem;
   padding: 4rem 1rem;
   border-top: 1px solid gray;
