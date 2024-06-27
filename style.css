@@ -285,11 +285,13 @@ p {
 .heading h2,
 .headingRef h2,
 .headingBlog h2,
-.headingContact h2 {
+.headingContact h2,
+.aboutMeBox h2 {
   font-family: "Cormorant Upright", serif;
   font-size: 3.5rem;
   color: var(--font-h3-h2-color);
   margin-bottom: 1rem;
+  text-align: center;
 }
 
 .heading h4,
