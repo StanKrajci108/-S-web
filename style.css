@@ -72,11 +72,13 @@ p {
 .logoName h2 {
   font-size: 2.5rem;
   color: var(--nav-font-color);
+  transition: 0.8s ease;
 }
 
 .logoNameFooter h2 {
   font-size: 2.2rem;
   color: var(--nav-font-color);
+  transition: 0.8s ease;
 }
 
 .logoName h4,
@@ -85,6 +87,7 @@ p {
   font-size: 1.6rem;
   color: rgb(142, 146, 170);
   margin-left: 0.2rem;
+  transition: opacity 0.8s ease;
 }
 
 .logoNameFooter h4 {
@@ -139,7 +142,6 @@ p {
   height: 3.5rem;
 }
 
-.navBoxIndex,
 .navBox {
   display: flex;
   margin: 0 auto;
@@ -154,6 +156,7 @@ p {
   z-index: 100;
   width: 100%;
   max-width: 100rem;
+  transition: background-color 0.8s ease;
 }
 
 .navBox {
@@ -168,7 +171,7 @@ p {
 }
 
 .navBox.scrolled {
-  background-color: #03051c;
+  background-color: #262840;
   box-shadow: 0 0 35px #868686;
 }
 
@@ -178,6 +181,7 @@ p {
 
 .logoImage.scrolled {
   width: 1.5rem;
+  transition: transform 0.8s ease;
 }
 
 .navigation ul {
@@ -219,7 +223,7 @@ p {
   height: auto;
   object-fit: contain;
   margin-right: 0.5rem;
-  transition: width 0.5s ease;
+  transition: 0.8s ease;
 }
 
 .contactBTN {
@@ -228,12 +232,17 @@ p {
   border: 1px solid #8199ed;
   border-radius: 0.5rem;
   color: #8b9ace;
+  transition: 0.8s ease;
 }
 
 .contactBTN:hover {
   border: 1px solid #d6dcff;
   color: #d6dcff;
   box-shadow: 0 0 5px #d6dcff;
+}
+
+.contactBTN.scrolled {
+  padding: 0.5rem 1.5rem;
 }
 
 .quality,
@@ -410,7 +419,7 @@ p {
 
 .aboutMe {
   flex-direction: column;
-  padding-top: 10rem;
+  padding-top: 12rem;
 }
 
 .aboutMeTextBox,
@@ -423,9 +432,6 @@ p {
 .aboutMeTextBox {
   max-width: 82rem;
   justify-content: center;
-}
-
-.aboutMeTextBox {
   padding: 2.5rem;
   margin-top: 5rem;
   gap: 3rem;
@@ -435,6 +441,14 @@ p {
   flex: 0 1 auto;
   width: 100%;
   /* max-width: 25rem; */
+}
+
+.aboutMeTitleImg h3 {
+  font-family: "Cormorant Upright", serif;
+  font-size: 2.5rem;
+  color: var(--font-h3-h2-color);
+  margin-bottom: 1rem;
+  text-align: start;
 }
 
 .aboutMeText {
@@ -451,8 +465,8 @@ p {
 }
 
 .blogText {
-  /* flex: 1; */
-  /* margin: 0 9rem; */
+  flex: 1;
+  margin: 0 9rem;
   gap: 4rem;
   padding: 4rem 1rem;
   border-top: 1px solid gray;

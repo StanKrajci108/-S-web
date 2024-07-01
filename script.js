@@ -26,10 +26,12 @@ window.addEventListener("scroll", () => {
   const navBox = document.querySelector(".navBox");
   const logoName = document.querySelector(".logoName");
   const logo = document.querySelector(".logoImage");
+  const button = document.querySelector(".contactBTN");
 
   if (window.scrollY > 200) {
     logo.classList.add("scrolled");
     navBox.classList.add("scrolled");
+    button.classList.add("scrolled");
     if (window.innerWidth >= 768) {
       logoName.classList.add("scrolled");
     }
@@ -37,6 +39,7 @@ window.addEventListener("scroll", () => {
     logo.classList.remove("scrolled");
     navBox.classList.remove("scrolled");
     logoName.classList.remove("scrolled");
+    button.classList.remove("scrolled");
   }
 });
 
