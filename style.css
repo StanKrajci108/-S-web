@@ -413,9 +413,14 @@ p {
 }
 
 .blog,
-.aboutMe {
+.aboutMe,
+.blogPage {
   display: flex;
   background-color: var(--blog-background-color);
+}
+
+.aboutMe,
+.blogPage {
   padding-top: 12rem;
 }
 
@@ -474,7 +479,7 @@ p {
 .blogTextPage {
   flex: 1;
   margin: 0 9rem;
-  gap: 4rem;
+  /* gap: 4rem; */
   padding: 4rem 1rem;
   border-top: 1px solid gray;
   border-bottom: 1px solid gray;
@@ -500,7 +505,8 @@ p {
 .blogTextPage {
   display: flex;
   flex-direction: column;
-  margin-top: 12rem;
+  margin: 8rem 9rem;
+  align-content: center;
 }
 
 .blogBtn a {

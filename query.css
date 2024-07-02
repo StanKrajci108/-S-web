@@ -191,6 +191,10 @@
     padding: 3rem;
   }
 
+  .contactIcon img {
+    width: 5rem;
+  }
+
   .blockMobile {
     display: none;
   }
@@ -205,5 +209,14 @@
 
   .footerLinks {
     margin-bottom: 3rem;
+  }
+
+  .blogTextPage {
+    margin: 8rem 2rem;
+    align-self: center;
+  }
+
+  .aboutMeTextBox {
+    flex-direction: column;
   }
 }
