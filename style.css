@@ -152,7 +152,7 @@ p {
   justify-content: space-between;
   align-items: center;
   padding: 0.5rem 4rem;
-  background-color: #00000048;
+  background-color: #121427c1;
   position: fixed;
   left: 50%;
   transform: translateX(-50%);
@@ -161,10 +161,6 @@ p {
   width: 100%;
   max-width: 100rem;
   transition: background-color 0.8s ease;
-}
-
-.navBox {
-  background-color: #080614af;
 }
 
 .navigation {
@@ -420,7 +416,8 @@ p {
 }
 
 .aboutMe,
-.blogPage {
+.blogPage,
+.contactPage {
   padding-top: 12rem;
 }
 
@@ -534,7 +531,8 @@ button:hover {
   letter-spacing: 0.2em;
 }
 
-.contact {
+.contact,
+.contactPage {
   background-image: var(--contact-gradient);
   padding-bottom: 6rem;
 }
@@ -731,7 +729,7 @@ footer {
   border: none;
   outline: none;
   box-shadow: 0 0 10px #4a4a4a;
-  background-color: #000;
+  background-color: #262840;
   cursor: pointer;
   padding: 8px;
   border-radius: 25px;
@@ -739,7 +737,7 @@ footer {
 }
 
 .scrollToTop:hover {
-  background-color: #44476f;
+  background-color: #343758;
 }
 
 .scrollToTop img {

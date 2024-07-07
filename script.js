@@ -64,6 +64,8 @@ window.addEventListener("resize", () => {
 });
 
 // Scrolling up button appearence
+
+const scrollToTopButton = document.getElementById("scrollToTop");
 window.addEventListener("scroll", () => {
   if (window.scrollY > 1000) {
     scrollToTopButton.style.display = "block";
