@@ -485,13 +485,19 @@ p {
   background-image: linear-gradient(to right, #dce5f3, #ccd7e9, #dce5f3);
 }
 
-.blogText a {
+.blogText a,
+.blogTextPage a {
   text-decoration: none;
   color: var(--font-h3-h2-color);
   font-family: "Open Sans", sans-serif;
-  font-size: 1em;
+  font-size: 1.1em;
   font-weight: 600;
-  /* text-transform: uppercase; */
+  transition: 0.5s ease-in-out;
+}
+
+.blogText a:hover,
+.blogTextPage a:hover {
+  letter-spacing: 1px;
 }
 
 .blogText h4,
@@ -508,7 +514,8 @@ p {
   align-content: center;
 }
 
-.blogBtn a {
+.blogBtn a,
+.refBtn a {
   text-decoration: none;
   color: var(--font-h3-h2-color);
   font-family: "Open Sans", sans-serif;
@@ -517,18 +524,26 @@ p {
   padding-bottom: 0.3rem;
 }
 
+.refBtn a {
+  color: var(--font-h4-color);
+  margin-top: 3rem;
+}
+
 button {
   transition: 0.8s ease-in-out;
   display: flex;
   margin: 0 auto;
-  background-color: var(--blog-background-color);
+  background-color: transparent;
   border: none;
-  border-bottom: 2px solid var(--font-h3-h2-color);
+  border-bottom: 1px solid var(--font-h4-color);
   margin-bottom: 5rem;
 }
 
+.refBtn button {
+  border-bottom: 2px solid #fff;
+}
+
 button:hover {
-  color: #b5c8fc;
   transform: scale(1.1);
   letter-spacing: 0.2em;
 }
