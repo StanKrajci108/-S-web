@@ -91,6 +91,10 @@
 @media screen and (max-width: 800px) {
   .hero {
     background-image: url("images/hero\ section\ mobile.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
   }
 
   .heading h2,
