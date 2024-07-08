@@ -410,13 +410,15 @@ p {
 
 .blog,
 .aboutMe,
-.blogPage {
+.blogPage,
+.referencesPage {
   display: flex;
   background-color: var(--blog-background-color);
 }
 
 .aboutMe,
-.blogPage {
+.blogPage,
+.referencesPage {
   padding-top: 12rem;
 }
 
@@ -475,9 +477,10 @@ p {
 }
 
 .blogText,
-.blogTextPage {
+.blogTextPage,
+.refTextPage {
   flex: 1;
-  margin: 0 9rem;
+  /* margin: 0 9rem; */
   /* gap: 4rem; */
   padding: 4rem 1rem;
   border-top: 1px solid gray;
@@ -485,8 +488,34 @@ p {
   background-image: linear-gradient(to right, #dce5f3, #ccd7e9, #dce5f3);
 }
 
+.blogText {
+  margin: 0 9rem;
+}
+
+.refTextPage {
+  background-image: var(--qualities-secondary-color);
+}
+
+.refTextPage img {
+  width: 5rem;
+  border-radius: 2rem;
+}
+
+.refTextPageProfil {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.refTextPageProfil h6 {
+  color: var(--font-h4-color);
+  font-size: 0.8rem;
+}
+
 .blogText a,
-.blogTextPage a {
+.blogTextPage a,
+.refTextPage a {
   text-decoration: none;
   color: var(--font-h3-h2-color);
   font-family: "Open Sans", sans-serif;
@@ -501,16 +530,22 @@ p {
 }
 
 .blogText h4,
-.blogTextPage h4 {
+.blogTextPage h4,
+.refTextPage h4 {
   color: var(--font-h3-h2-color);
   font-size: 1.2rem;
   margin-bottom: 1.5rem;
 }
 
-.blogTextPage {
+.refTextPage h4 {
+  margin-bottom: 0;
+}
+
+.blogTextPage,
+.refTextPage {
   display: flex;
   flex-direction: column;
-  margin: 8rem 9rem;
+  margin: 8rem 2rem;
   align-content: center;
 }
 
