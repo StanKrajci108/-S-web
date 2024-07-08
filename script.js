@@ -67,7 +67,7 @@ window.addEventListener("resize", () => {
 
 const scrollToTopButton = document.getElementById("scrollToTop");
 window.addEventListener("scroll", () => {
-  if (window.scrollY > 1000) {
+  if (window.scrollY > 2000) {
     scrollToTopButton.style.display = "block";
   } else {
     scrollToTopButton.style.display = "none";
