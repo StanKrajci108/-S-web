@@ -101,10 +101,6 @@
   .mainBlogContainer {
     padding-top: 8rem;
   }
-
-  .headingBlogPage h2 {
-    font-size: 2.5rem;
-  }
 }
 
 @media screen and (max-width: 800px) {
@@ -119,7 +115,8 @@
   .heading h2,
   .headingRef h2,
   .headingBlog h2,
-  .headingContact h2 {
+  .headingContact h2,
+  .headingBlogPage h2 {
     font-size: 3rem;
     padding: 0 2rem;
   }
@@ -180,6 +177,16 @@
     flex-direction: column;
   }
 
+  .refTextPage {
+    margin: 6rem 2rem;
+  }
+
+  .aboutMe,
+  .blogPage,
+  .referencesPage {
+    padding-top: 10rem;
+  }
+
   .blogText {
     margin: 0 2rem;
   }
@@ -235,12 +242,13 @@
   }
 
   .blogTextPage {
-    margin: 8rem 2rem;
+    margin: 5rem 2rem;
     align-self: center;
   }
 
   .aboutMeTextBox {
     flex-direction: column;
+    margin-top: 3rem;
   }
 
   .scrollToTop {
