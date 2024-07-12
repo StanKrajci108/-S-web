@@ -399,6 +399,7 @@ p {
 .blockRef {
   background-color: #ffffff;
   height: 10rem;
+  position: relative;
 }
 
 .references {
