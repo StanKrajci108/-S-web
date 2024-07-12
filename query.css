@@ -124,7 +124,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 95vh;
   }
 
   .heading h2,
@@ -170,7 +170,7 @@
 
   .hero-title {
     right: 0;
-    top: 95%;
+    top: 97%;
     left: 50%;
     width: 100%;
     text-shadow: 0 0 10px #1e1e1e;
