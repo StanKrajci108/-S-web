@@ -1,4 +1,4 @@
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1300px) {
   .navBox nav {
     position: absolute;
     right: 0;
@@ -7,6 +7,10 @@
     background: linear-gradient(180deg, #565656, #2f2f2f);
     border-bottom-left-radius: 25px;
     display: none;
+  }
+
+  .scrolled .navBox nav {
+    top: 55px;
   }
 
   .navBox nav ul {
@@ -29,12 +33,22 @@
   }
 
   .menu-icon img {
+    width: 3.5rem;
+    height: 3.5rem;
+  }
+
+  .scrolled .menu-icon img {
     width: 2.5rem;
     height: 2.5rem;
   }
 
   .hero-title {
-    right: -55%;
+    right: -50%;
+    font-size: 1.5rem;
+  }
+
+  .hero-title-inner {
+    width: 40%;
   }
 
   .referencesBox,
@@ -53,7 +67,8 @@
 
 @media screen and (max-width: 1000px) {
   .hero-title {
-    right: -65%;
+    right: -75%;
+    top: 85%;
   }
 
   .quality,
@@ -103,7 +118,7 @@
   }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
   .hero {
     background-image: url("images/hero\ section\ mobile.jpg");
     background-size: cover;
@@ -123,6 +138,11 @@
 
   .logo img {
     width: 1.5rem;
+  }
+
+  .menu-icon img {
+    width: 2.5rem;
+    height: 2.5rem;
   }
 
   .logoName.scrolled {
@@ -158,7 +178,7 @@
   }
 
   .hero-title-inner {
-    width: 70%;
+    width: 80%;
     padding: 15px;
   }
 
