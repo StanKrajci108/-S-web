@@ -85,6 +85,14 @@
     width: 100%;
     padding: 5rem 3rem;
   }
+
+  .containerBlogArticle {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 10rem;
+    gap: 5rem;
+  }
 }
 
 @media screen and (max-width: 800px) {
@@ -231,5 +239,9 @@
   .scrollToTop img {
     width: 1.8rem;
     height: 1.8rem;
+  }
+
+  .containerBlogArticle {
+    padding: 2rem;
   }
 }

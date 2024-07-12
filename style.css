@@ -536,7 +536,8 @@ p {
 
 .blogText a,
 .blogTextPage a,
-.refTextPage a {
+.refTextPage a,
+.containerBlog a {
   text-decoration: none;
   color: var(--font-h3-h2-color);
   font-family: "Open Sans", sans-serif;
@@ -546,7 +547,8 @@ p {
 }
 
 .blogText a:hover,
-.blogTextPage a:hover {
+.blogTextPage a:hover,
+.containerBlog a:hover {
   letter-spacing: 1px;
 }
 
@@ -818,13 +820,13 @@ footer {
   height: 40px;
 }
 
-.blackShipsBox {
+.containerBlogArticle {
   display: flex;
-  flex-wrap: nowrap;
+  /* flex-wrap: nowrap; */
   flex-direction: row;
   margin-top: 2rem;
   padding: 7rem;
-  gap: 12rem;
+  gap: 10rem;
 }
 
 .containerBlog {
@@ -890,7 +892,7 @@ footer {
   margin-bottom: 3rem;
 }
 
-.mainBlackShips {
+.mainBlogContainer {
   background-color: var(--blog-background-color);
   padding-top: 12rem;
 }
