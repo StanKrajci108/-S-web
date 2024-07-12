@@ -179,7 +179,7 @@ p {
   align-items: center;
   padding: 0.5rem 4rem;
   /* background-color: #121427c1; */
-  background-image: linear-gradient(to left top, #212970b4, #0f1335d5);
+  background-image: linear-gradient(to left top, #2f356eca, #0f1335d5);
   position: fixed;
   left: 50%;
   transform: translateX(-50%);
@@ -255,7 +255,7 @@ p {
 
 .contactBTN {
   padding: 0.8rem 1.5rem;
-  background-color: #9096d94b;
+  background-color: #9096d92e;
   border: 1px solid #8199ed;
   border-radius: 0.5rem;
   color: #8b9ace;
