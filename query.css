@@ -170,11 +170,11 @@
 
   .hero-title {
     right: 0;
-    top: 95%;
+    top: 90%;
     left: 50%;
     width: 100%;
     text-shadow: 0 0 10px #1e1e1e;
-    background-image: linear-gradient(to right, #56565600, #161a2975);
+    background-image: linear-gradient(to bottom, #56565613, #161a2991);
     z-index: 1;
   }
 
