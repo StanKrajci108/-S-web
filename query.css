@@ -131,8 +131,9 @@
   .headingRef h2,
   .headingBlog h2,
   .headingContact h2,
-  .headingBlogPage h2 {
-    font-size: 3rem;
+  .headingBlogPage h2,
+  .aboutMeBox h2 {
+    font-size: 2rem;
     padding: 0 2rem;
   }
 
