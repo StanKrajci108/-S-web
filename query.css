@@ -149,8 +149,8 @@
 
   .hero-title {
     right: 0;
-    top: 70%;
-    left: 60%;
+    top: 90%;
+    left: 65%;
     width: 60%;
   }
 
@@ -159,8 +159,8 @@
   }
 
   .hero-title-inner h1 {
-    /* font-size: 1.8rem; */
-    display: none;
+    font-size: 1.5rem;
+    /* display: none; */
   }
 
   .quality,

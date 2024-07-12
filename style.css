@@ -147,7 +147,7 @@ p {
   width: 85rem;
   height: 20rem;
   font-size: 1.8rem;
-  text-shadow: 0 0 5px #323232;
+  text-shadow: 0 0 3px #1e1e1e;
   transform: translate(-50%, -50%);
   z-index: 1;
 }
